@@ -14,6 +14,7 @@ public class Main3 {
         // формула создания любого ссылочного типа
         Scanner scanner = new Scanner(System.in);
         String level = scanner.next();
+         int v = 0;
 
         if(level.equalsIgnoreCase("новичок")){
             int[][] field = new int[9][9];

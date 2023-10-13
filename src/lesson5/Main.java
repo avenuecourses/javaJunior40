@@ -3,9 +3,11 @@ package lesson5;
 public class Main {
     public static void main(String[] args) {
         ScannerUtil.printFigurs();
-        String figura = ScannerUtil.getInputFigure(); // рекурсивный вызов
+        String figuraqqq = ScannerUtil.getInputFigure(); // рекурсивный вызов
 
-        if(figura.equals("1") || figura.equalsIgnoreCase("Круг")){
+        int a = 9;
+
+        if(figuraqqq.equals("1") || figuraqqq.equalsIgnoreCase("Круг")){
             String action = ScannerUtil.getAction(); // или площадь или перимерт
             int radius = ScannerUtil.getParametr("Введите радиус:");
             if(action.equalsIgnoreCase("площадь")){
